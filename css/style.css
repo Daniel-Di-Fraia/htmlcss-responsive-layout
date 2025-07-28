@@ -1,5 +1,4 @@
 /* generics */
-/* generics */
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +8,43 @@
 body {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
     font-size: 15px;
+}
+
+/* header pagina */
+.container-header-footer {
+    /* DEBUG */
+    /* background-color: rgb(177, 175, 175); */
+    height: 90px;
+}
+
+.container-header-footer h1 {
+    font-size: 40px;
+    color: #FF9614;
+    font-family: 'Nerko One', cursive;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+/* mobile version */
+@media screen and (max-width: 640px) {
+
+    .container-header-footer h1 {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer pagina */
+.purple {
+    background-color: #7C69A4;
+    height: 110px;
 }
