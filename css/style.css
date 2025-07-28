@@ -11,13 +11,7 @@ body {
 }
 
 /* header pagina */
-.container-header-footer {
-    /* DEBUG */
-    /* background-color: rgb(177, 175, 175); */
-    
-}
-
-.container-header-footer h1 {
+h1 {
     font-size: 40px;
     color: #FF9614;
     font-family: 'Nerko One', cursive;
@@ -29,7 +23,7 @@ body {
 /* mobile version */
 @media screen and (max-width: 640px) {
 
-    .container-header-footer h1 {
+     h1 {
         text-align: center;
     }
 }
@@ -290,12 +284,11 @@ p strong {
 
     .info {
         text-align: center;
+        margin-left: 0;
     }
 
     .footer-list {
         justify-content: center;
-        margin-top: 20px;
-        margin-left: 30px;
         }
 
 }
