@@ -14,7 +14,7 @@ body {
 .container-header-footer {
     /* DEBUG */
     /* background-color: rgb(177, 175, 175); */
-    height: 90px;
+    
 }
 
 .container-header-footer h1 {
@@ -23,6 +23,7 @@ body {
     font-family: 'Nerko One', cursive;
     margin-left: 30px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* mobile version */
@@ -228,7 +229,7 @@ p {
     font-size: 24px;
     line-height: 42px;
     color: rgb(97, 97, 97);
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 p strong {
@@ -245,10 +246,57 @@ p strong {
 }
 
 
-
-
 /* footer pagina */
-/* .purple {
+.purple {
     background-color: #7C69A4;
-    height: 110px;
-} */
+    padding: 40px 0;
+}
+
+.text-white {
+    color: white;
+}
+
+.info {
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.info h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.footer-list {
+    list-style-type: none;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.footer-list li a {
+    color: white;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+/* tablet version */
+@media screen and (max-width: 1020px) {
+
+    .info {
+        text-align: center;
+    }
+
+    .footer-list {
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 30px;
+        }
+
+}
+
