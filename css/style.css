@@ -88,6 +88,7 @@ main {
     list-style-type: none;
     padding-left: 40px;
     padding-top: 30px;
+    padding-bottom: 40px;
     line-height: 40px;
     font-size: 18px;
 }
@@ -116,7 +117,16 @@ main {
         font-size: 43px;
     }
 
+    .container {
+    width: 80%;
 }
+
+}
+
+/* mobile version */
+
+
+
 
 /* sezione navigazione */
 .nav-row {
@@ -127,7 +137,7 @@ main {
 
 .list {
     list-style-type: none;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .list li {
@@ -150,7 +160,7 @@ main {
 
 #iscriviti {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -174,10 +184,60 @@ main {
     .list li {
         height: 40px;
         line-height: 42px;
-        border-radius: 15px 15px;
     }
+
+       .container {
+    width: 90%;
+}
 }
 
+/* sezione presentazione */
+#presentazione {
+    color: black;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.divisore {
+    border-bottom: 3px solid #FF9614;
+    width: 80px;
+    margin-bottom: 35px;
+}
+
+#tiramisu {
+    float: left;
+    margin-right: 12px;
+    height: 240px;
+
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+p {
+    font-size: 24px;
+    line-height: 42px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 100px;
+}
+
+p strong {
+    color: black;
+}
+
+@media screen and (max-width: 640px) {
+
+    #tiramisu {
+        float: none;
+        display: block;
+        margin: 5px auto;
+    }
+}
 
 
 
