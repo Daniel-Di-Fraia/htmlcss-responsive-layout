@@ -124,7 +124,12 @@ main {
 }
 
 /* mobile version */
+@media screen and (max-width: 640px) {
 
+    #dolce {
+        display: none;
+    }
+}
 
 
 
