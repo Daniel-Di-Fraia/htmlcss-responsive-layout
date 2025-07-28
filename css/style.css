@@ -64,18 +64,46 @@ main {
 
 .col-sx {
     /* DEBUG */
-    background-color: red;
+    /* background-color: red;
+    height: 500px; 
+    border: 1px solid black; */
+    width: 70%;
+}
+
+.col-sx img {
     height: 500px;
-    border: 1px solid black;
-    width: 60%;
 }
 
 .col-dx {
     /* DEBUG */
-    background-color: red;
-    height: 500px;
-    border: 1px solid black;
-    width: 40%;
+    /* height: 500px;
+    border: 1px solid black; */
+    background-color: white;
+    width: 30%;
+    margin-bottom: 3px;
+}
+
+.col-dx h3 {
+    font-size: 25px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.col-dx ul {
+    list-style-type: none;
+    padding-left: 40px;
+    padding-top: 30px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.col-dx ul li {
+    color: grey;
+}
+
+.col-dx ul li strong {
+    color: black;
+    font-size: 20px;
 }
 
 /* tablet version */
