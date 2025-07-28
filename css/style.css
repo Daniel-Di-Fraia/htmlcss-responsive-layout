@@ -118,15 +118,72 @@ main {
 
 }
 
+/* sezione navigazione */
+.nav-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.list {
+    list-style-type: none;
+    margin-top: 30px;
+}
 
+.list li {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    height: 50px;
+    border-radius: 30px 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#iscriviti {
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .list li a {
+    display: none;
+    }   
+
+}
+
+@media screen and (max-width: 640px) {
+
+    #iscriviti {
+        display: none;
+    }
+
+    .nav-row {
+        gap: 60px;
+    }
+
+    .list li {
+        height: 40px;
+        line-height: 42px;
+        border-radius: 15px 15px;
+    }
+}
 
 
 
 
 
 /* footer pagina */
-.purple {
+/* .purple {
     background-color: #7C69A4;
     height: 110px;
-}
+} */
